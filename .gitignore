@@ -5,27 +5,28 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+userApp/.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-
+userApp/log/*
+userApp/tmp/*
+!userApp/log/.keep
+!userApp/tmp/.keep
+userApp/tmp
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
-!/tmp/pids/
-!/tmp/pids/.keep
+userApp/tmp/pids/*
+!userApp/tmp/pids/
+!userApp/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-/storage/*
-!/storage/.keep
-/tmp/storage/*
-!/tmp/storage/
-!/tmp/storage/.keep
+userApp/storage/*
+!userApp/storage/.keep
+userApp/tmp/storage/*
+!userApp/tmp/storage/
+!userApp/tmp/storage/.keep
 
 /public/assets
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+.DS_Store
