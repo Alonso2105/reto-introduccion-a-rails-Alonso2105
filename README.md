@@ -7,14 +7,18 @@
 
 > [Ver instrucciones antes de iniciar](./instructions.md)
 
-This README would normally document whatever steps are necessary to get the application up and running.
+## Table of contents
+  - [Description](#Description)
+  - [How to Run the Project](#How-to-Run-the-Project)
+  - [Credits](#Credits)
 
-Things you may want to cover:
+## Description. 
+In this ruby and rails exercise, a database is connected to the application and an mvc model is created to add and remove users in the database.
 
-- Title or Project Name
-- Table of contents
-- Description. A brief description of what the project is about
-- How to Install and Run the Project.
-- How to Use the Project.
-- Credits
-- Badges
+## How to Run the Project
+```
+rail s
+```
+
+## Credits
+- [@Alonso2105](https://github.com/Alonso2105)
