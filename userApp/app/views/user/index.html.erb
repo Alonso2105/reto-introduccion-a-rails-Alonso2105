@@ -1,0 +1,21 @@
+
+<div style="color:red"> <%= flash[:notice] %> </div>
+
+<table>
+ <tr>
+  <td>Id</td>
+  <td>Usuario</td>
+  <td></td>
+ </tr>
+
+<% @user_list.each do |u| %>
+  <tr>
+   <td><%= u.id %></td>
+   <td><%= u.username %></td>
+   <td>   
+     <%= link_to "Eliminar", "/users/" + u.id.to_s %> |
+   </td>
+  </tr>
+<% end %>
+
+</table>
